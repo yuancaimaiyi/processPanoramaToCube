@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../openMVG/exif/exif_IO.hpp
+string
+-
+
+../openMVG/exif/exif_IO_EasyExif.hpp
+memory
+-
+string
+-
+openMVG/exif/exif_IO.hpp
+../openMVG/exif/openMVG/exif/exif_IO.hpp
+
+../third_party/easyexif/exif.h
+string
+-
+
+/home/yuancaimaiyi/文档/openMVG/src/openMVG/exif/exif_IO_EasyExif.cpp
+openMVG/exif/exif_IO_EasyExif.hpp
+/home/yuancaimaiyi/文档/openMVG/src/openMVG/exif/openMVG/exif/exif_IO_EasyExif.hpp
+fstream
+-
+limits
+-
+sstream
+-
+vector
+-
+third_party/easyexif/exif.h
+/home/yuancaimaiyi/文档/openMVG/src/openMVG/exif/third_party/easyexif/exif.h
+

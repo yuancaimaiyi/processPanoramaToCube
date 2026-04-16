@@ -1,0 +1,128 @@
+{
+	"BUILD_DIR" : "/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO/openMVG_main_AlternativeVO_autogen",
+	"CMAKE_BINARY_DIR" : "/home/yuancaimaiyi/文档/openMVG/src/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/yuancaimaiyi/文档/openMVG/src",
+	"HEADERS" : 
+	[
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/ControlButtonsPanel.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_ControlButtonsPanel.cpp"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/MainWindow.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_MainWindow.cpp"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/VOFolderProcessor.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VOFolderProcessor.cpp"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/VOViewerDrawableElements.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VOViewerDrawableElements.cpp"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/VOViewerPanel.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_VOViewerPanel.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO/openMVG_main_AlternativeVO_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO/openMVG_main_AlternativeVO_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"EIGEN_MPL2_ONLY",
+		"OPENMVG_USE_OPENMP",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"USE_PATENTED_LIGT"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO",
+		"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO",
+		"/usr/include/eigen3",
+		"/home/yuancaimaiyi/文档/openMVG/src",
+		"/home/yuancaimaiyi/文档/openMVG/src/dependencies/cereal/include",
+		"/home/yuancaimaiyi/文档/openMVG/src/third_party/stlplus3",
+		"/filesystemSimplified",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/local/cuda-11.8/targets/x86_64-linux/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO/openMVG_main_AlternativeVO_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 16,
+	"PARSE_CACHE_FILE" : "/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO/CMakeFiles/openMVG_main_AlternativeVO_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/yuancaimaiyi/文档/openMVG/src/build/software/VO/AlternativeVO/CMakeFiles/openMVG_main_AlternativeVO_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/ControlButtonsPanel.cpp",
+			"Mu"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/MainWindow.cpp",
+			"Mu"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/VOFolderProcessor.cpp",
+			"Mu"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/VOViewerDrawableElements.cpp",
+			"Mu"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/VOViewerPanel.cpp",
+			"Mu"
+		],
+		[
+			"/home/yuancaimaiyi/文档/openMVG/src/software/VO/AlternativeVO/main.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

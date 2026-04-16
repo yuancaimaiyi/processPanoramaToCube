@@ -1,0 +1,1647 @@
+The system is: Linux - 5.15.0-117-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e62f8/fast && /usr/bin/make -f CMakeFiles/cmTC_e62f8.dir/build.make CMakeFiles/cmTC_e62f8.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e62f8.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e62f8.dir/testCCompiler.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e62f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e62f8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e62f8.dir/testCCompiler.c.o  -o cmTC_e62f8 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e278b/fast && /usr/bin/make -f CMakeFiles/cmTC_e278b.dir/build.make CMakeFiles/cmTC_e278b.dir/build
+make[1]: Entering directory '/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuDpBIm.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda-11.8/targets/x86_64-linux/include
+ .
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o /tmp/ccuDpBIm.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_e278b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e278b.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o  -o cmTC_e278b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e278b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHwgtNP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e278b /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e278b' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/cuda-11.8/targets/x86_64-linux/include]
+    add: [.]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/cuda-11.8/targets/x86_64-linux/include] ==> [/usr/local/cuda-11.8/targets/x86_64-linux/include]
+  skipping relative include dir [.]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/cuda-11.8/targets/x86_64-linux/include;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e278b/fast && /usr/bin/make -f CMakeFiles/cmTC_e278b.dir/build.make CMakeFiles/cmTC_e278b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuDpBIm.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda-11.8/targets/x86_64-linux/include]
+  ignore line: [ .]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o /tmp/ccuDpBIm.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_e278b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e278b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o  -o cmTC_e278b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e278b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHwgtNP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e278b /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHwgtNP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e278b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64/../lib] ==> dir [/usr/local/cuda-11.8/lib64/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64] ==> dir [/usr/local/cuda-11.8/lib64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_e278b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/local/cuda-11.8/lib64/../lib] ==> [/usr/local/cuda-11.8/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11.8/lib64] ==> [/usr/local/cuda-11.8/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/local/cuda-11.8/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda-11.8/lib64]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9e17/fast && /usr/bin/make -f CMakeFiles/cmTC_a9e17.dir/build.make CMakeFiles/cmTC_a9e17.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a9e17.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a9e17.dir/testCXXCompiler.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a9e17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9e17.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a9e17.dir/testCXXCompiler.cxx.o  -o cmTC_a9e17 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f24d/fast && /usr/bin/make -f CMakeFiles/cmTC_9f24d.dir/build.make CMakeFiles/cmTC_9f24d.dir/build
+make[1]: Entering directory '/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuZZEoj.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda-11.8/targets/x86_64-linux/include
+ .
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccuZZEoj.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_9f24d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f24d.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f24d 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f24d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cccU4amL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9f24d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f24d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/cuda-11.8/targets/x86_64-linux/include]
+    add: [.]
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/cuda-11.8/targets/x86_64-linux/include] ==> [/usr/local/cuda-11.8/targets/x86_64-linux/include]
+  skipping relative include dir [.]
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/cuda-11.8/targets/x86_64-linux/include;/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_9f24d/fast && /usr/bin/make -f CMakeFiles/cmTC_9f24d.dir/build.make CMakeFiles/cmTC_9f24d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuZZEoj.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda-11.8/targets/x86_64-linux/include]
+  ignore line: [ .]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccuZZEoj.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_9f24d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f24d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f24d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f24d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cccU4amL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9f24d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccU4amL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9f24d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64/../lib] ==> dir [/usr/local/cuda-11.8/lib64/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64] ==> dir [/usr/local/cuda-11.8/lib64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_9f24d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/local/cuda-11.8/lib64/../lib] ==> [/usr/local/cuda-11.8/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11.8/lib64] ==> [/usr/local/cuda-11.8/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/local/cuda-11.8/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda-11.8/lib64]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test check_c_compiler_flag__march_core2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_766b9/fast && /usr/bin/make -f CMakeFiles/cmTC_766b9.dir/build.make CMakeFiles/cmTC_766b9.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_766b9.dir/src.c.o
+/usr/bin/cc   -Dcheck_c_compiler_flag__march_core2   -march=core2 -o CMakeFiles/cmTC_766b9.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_766b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_766b9.dir/link.txt --verbose=1
+/usr/bin/cc  -Dcheck_c_compiler_flag__march_core2    CMakeFiles/cmTC_766b9.dir/src.c.o  -o cmTC_766b9 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__march_core2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1810a/fast && /usr/bin/make -f CMakeFiles/cmTC_1810a.dir/build.make CMakeFiles/cmTC_1810a.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1810a.dir/src.cxx.o
+/usr/bin/c++    -Dcheck_cxx_compiler_flag__march_core2   -march=core2 -o CMakeFiles/cmTC_1810a.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1810a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1810a.dir/link.txt --verbose=1
+/usr/bin/c++   -Dcheck_cxx_compiler_flag__march_core2    CMakeFiles/cmTC_1810a.dir/src.cxx.o  -o cmTC_1810a 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__msse2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fecdd/fast && /usr/bin/make -f CMakeFiles/cmTC_fecdd.dir/build.make CMakeFiles/cmTC_fecdd.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fecdd.dir/src.c.o
+/usr/bin/cc   -march=core2 -Dcheck_c_compiler_flag__msse2   -msse2 -o CMakeFiles/cmTC_fecdd.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fecdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fecdd.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -Dcheck_c_compiler_flag__msse2    CMakeFiles/cmTC_fecdd.dir/src.c.o  -o cmTC_fecdd 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0e762/fast && /usr/bin/make -f CMakeFiles/cmTC_0e762.dir/build.make CMakeFiles/cmTC_0e762.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0e762.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -Dcheck_cxx_compiler_flag__msse2   -msse2 -o CMakeFiles/cmTC_0e762.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0e762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e762.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -Dcheck_cxx_compiler_flag__msse2    CMakeFiles/cmTC_0e762.dir/src.cxx.o  -o cmTC_0e762 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__msse3 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0241/fast && /usr/bin/make -f CMakeFiles/cmTC_f0241.dir/build.make CMakeFiles/cmTC_f0241.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f0241.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -Dcheck_c_compiler_flag__msse3   -msse3 -o CMakeFiles/cmTC_f0241.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f0241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0241.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -Dcheck_c_compiler_flag__msse3    CMakeFiles/cmTC_f0241.dir/src.c.o  -o cmTC_f0241 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse3 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ba24/fast && /usr/bin/make -f CMakeFiles/cmTC_3ba24.dir/build.make CMakeFiles/cmTC_3ba24.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3ba24.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -Dcheck_cxx_compiler_flag__msse3   -msse3 -o CMakeFiles/cmTC_3ba24.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3ba24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ba24.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -Dcheck_cxx_compiler_flag__msse3    CMakeFiles/cmTC_3ba24.dir/src.cxx.o  -o cmTC_3ba24 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Determining if the include file pmmintrin.h exists passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3f1af/fast && /usr/bin/make -f CMakeFiles/cmTC_3f1af.dir/build.make CMakeFiles/cmTC_3f1af.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3f1af.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -msse3    -o CMakeFiles/cmTC_3f1af.dir/CheckIncludeFile.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3f1af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f1af.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -msse3     CMakeFiles/cmTC_3f1af.dir/CheckIncludeFile.cxx.o  -o cmTC_3f1af 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test check_c_compiler_flag__mssse3 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7f0a/fast && /usr/bin/make -f CMakeFiles/cmTC_a7f0a.dir/build.make CMakeFiles/cmTC_a7f0a.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a7f0a.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -Dcheck_c_compiler_flag__mssse3   -mssse3 -o CMakeFiles/cmTC_a7f0a.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a7f0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7f0a.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -Dcheck_c_compiler_flag__mssse3    CMakeFiles/cmTC_a7f0a.dir/src.c.o  -o cmTC_a7f0a 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mssse3 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5baf5/fast && /usr/bin/make -f CMakeFiles/cmTC_5baf5.dir/build.make CMakeFiles/cmTC_5baf5.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5baf5.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -Dcheck_cxx_compiler_flag__mssse3   -mssse3 -o CMakeFiles/cmTC_5baf5.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5baf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5baf5.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -Dcheck_cxx_compiler_flag__mssse3    CMakeFiles/cmTC_5baf5.dir/src.cxx.o  -o cmTC_5baf5 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Determining if the include file tmmintrin.h exists passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3fc7b/fast && /usr/bin/make -f CMakeFiles/cmTC_3fc7b.dir/build.make CMakeFiles/cmTC_3fc7b.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3fc7b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mssse3    -o CMakeFiles/cmTC_3fc7b.dir/CheckIncludeFile.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3fc7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fc7b.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mssse3     CMakeFiles/cmTC_3fc7b.dir/CheckIncludeFile.cxx.o  -o cmTC_3fc7b 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse4_1 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca540/fast && /usr/bin/make -f CMakeFiles/cmTC_ca540.dir/build.make CMakeFiles/cmTC_ca540.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ca540.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -Dcheck_c_compiler_flag__mno_sse4_1   -mno-sse4.1 -o CMakeFiles/cmTC_ca540.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ca540
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca540.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -Dcheck_c_compiler_flag__mno_sse4_1    CMakeFiles/cmTC_ca540.dir/src.c.o  -o cmTC_ca540 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4_1 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31c61/fast && /usr/bin/make -f CMakeFiles/cmTC_31c61.dir/build.make CMakeFiles/cmTC_31c61.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_31c61.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -Dcheck_cxx_compiler_flag__mno_sse4_1   -mno-sse4.1 -o CMakeFiles/cmTC_31c61.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_31c61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c61.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -Dcheck_cxx_compiler_flag__mno_sse4_1    CMakeFiles/cmTC_31c61.dir/src.cxx.o  -o cmTC_31c61 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse4_2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a681/fast && /usr/bin/make -f CMakeFiles/cmTC_8a681.dir/build.make CMakeFiles/cmTC_8a681.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8a681.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -Dcheck_c_compiler_flag__mno_sse4_2   -mno-sse4.2 -o CMakeFiles/cmTC_8a681.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8a681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a681.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -Dcheck_c_compiler_flag__mno_sse4_2    CMakeFiles/cmTC_8a681.dir/src.c.o  -o cmTC_8a681 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4_2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_569cf/fast && /usr/bin/make -f CMakeFiles/cmTC_569cf.dir/build.make CMakeFiles/cmTC_569cf.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_569cf.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -Dcheck_cxx_compiler_flag__mno_sse4_2   -mno-sse4.2 -o CMakeFiles/cmTC_569cf.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_569cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_569cf.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -Dcheck_cxx_compiler_flag__mno_sse4_2    CMakeFiles/cmTC_569cf.dir/src.cxx.o  -o cmTC_569cf 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse4a succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2f0b/fast && /usr/bin/make -f CMakeFiles/cmTC_e2f0b.dir/build.make CMakeFiles/cmTC_e2f0b.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e2f0b.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -Dcheck_c_compiler_flag__mno_sse4a   -mno-sse4a -o CMakeFiles/cmTC_e2f0b.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e2f0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2f0b.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -Dcheck_c_compiler_flag__mno_sse4a    CMakeFiles/cmTC_e2f0b.dir/src.c.o  -o cmTC_e2f0b 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4a succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9902e/fast && /usr/bin/make -f CMakeFiles/cmTC_9902e.dir/build.make CMakeFiles/cmTC_9902e.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9902e.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -Dcheck_cxx_compiler_flag__mno_sse4a   -mno-sse4a -o CMakeFiles/cmTC_9902e.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9902e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9902e.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -Dcheck_cxx_compiler_flag__mno_sse4a    CMakeFiles/cmTC_9902e.dir/src.cxx.o  -o cmTC_9902e 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04f4e/fast && /usr/bin/make -f CMakeFiles/cmTC_04f4e.dir/build.make CMakeFiles/cmTC_04f4e.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_04f4e.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -Dcheck_c_compiler_flag__mno_avx   -mno-avx -o CMakeFiles/cmTC_04f4e.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04f4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04f4e.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -Dcheck_c_compiler_flag__mno_avx    CMakeFiles/cmTC_04f4e.dir/src.c.o  -o cmTC_04f4e 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_490cd/fast && /usr/bin/make -f CMakeFiles/cmTC_490cd.dir/build.make CMakeFiles/cmTC_490cd.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_490cd.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -Dcheck_cxx_compiler_flag__mno_avx   -mno-avx -o CMakeFiles/cmTC_490cd.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_490cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_490cd.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -Dcheck_cxx_compiler_flag__mno_avx    CMakeFiles/cmTC_490cd.dir/src.cxx.o  -o cmTC_490cd 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_fma succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a71e/fast && /usr/bin/make -f CMakeFiles/cmTC_0a71e.dir/build.make CMakeFiles/cmTC_0a71e.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0a71e.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -Dcheck_c_compiler_flag__mno_fma   -mno-fma -o CMakeFiles/cmTC_0a71e.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0a71e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a71e.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -Dcheck_c_compiler_flag__mno_fma    CMakeFiles/cmTC_0a71e.dir/src.c.o  -o cmTC_0a71e 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_fma succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9d45/fast && /usr/bin/make -f CMakeFiles/cmTC_a9d45.dir/build.make CMakeFiles/cmTC_a9d45.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a9d45.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -Dcheck_cxx_compiler_flag__mno_fma   -mno-fma -o CMakeFiles/cmTC_a9d45.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a9d45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9d45.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -Dcheck_cxx_compiler_flag__mno_fma    CMakeFiles/cmTC_a9d45.dir/src.cxx.o  -o cmTC_a9d45 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_bmi2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2aa56/fast && /usr/bin/make -f CMakeFiles/cmTC_2aa56.dir/build.make CMakeFiles/cmTC_2aa56.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2aa56.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -Dcheck_c_compiler_flag__mno_bmi2   -mno-bmi2 -o CMakeFiles/cmTC_2aa56.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2aa56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aa56.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -Dcheck_c_compiler_flag__mno_bmi2    CMakeFiles/cmTC_2aa56.dir/src.c.o  -o cmTC_2aa56 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_bmi2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9765/fast && /usr/bin/make -f CMakeFiles/cmTC_d9765.dir/build.make CMakeFiles/cmTC_d9765.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d9765.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -Dcheck_cxx_compiler_flag__mno_bmi2   -mno-bmi2 -o CMakeFiles/cmTC_d9765.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d9765
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9765.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -Dcheck_cxx_compiler_flag__mno_bmi2    CMakeFiles/cmTC_d9765.dir/src.cxx.o  -o cmTC_d9765 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca714/fast && /usr/bin/make -f CMakeFiles/cmTC_ca714.dir/build.make CMakeFiles/cmTC_ca714.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ca714.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -Dcheck_c_compiler_flag__mno_avx2   -mno-avx2 -o CMakeFiles/cmTC_ca714.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ca714
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca714.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -Dcheck_c_compiler_flag__mno_avx2    CMakeFiles/cmTC_ca714.dir/src.c.o  -o cmTC_ca714 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx2 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e286/fast && /usr/bin/make -f CMakeFiles/cmTC_3e286.dir/build.make CMakeFiles/cmTC_3e286.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3e286.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -Dcheck_cxx_compiler_flag__mno_avx2   -mno-avx2 -o CMakeFiles/cmTC_3e286.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3e286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e286.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -Dcheck_cxx_compiler_flag__mno_avx2    CMakeFiles/cmTC_3e286.dir/src.cxx.o  -o cmTC_3e286 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_xop succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e87f9/fast && /usr/bin/make -f CMakeFiles/cmTC_e87f9.dir/build.make CMakeFiles/cmTC_e87f9.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e87f9.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -Dcheck_c_compiler_flag__mno_xop   -mno-xop -o CMakeFiles/cmTC_e87f9.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e87f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e87f9.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -Dcheck_c_compiler_flag__mno_xop    CMakeFiles/cmTC_e87f9.dir/src.c.o  -o cmTC_e87f9 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_xop succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e98f/fast && /usr/bin/make -f CMakeFiles/cmTC_8e98f.dir/build.make CMakeFiles/cmTC_8e98f.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_8e98f.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -Dcheck_cxx_compiler_flag__mno_xop   -mno-xop -o CMakeFiles/cmTC_8e98f.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8e98f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e98f.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -Dcheck_cxx_compiler_flag__mno_xop    CMakeFiles/cmTC_8e98f.dir/src.cxx.o  -o cmTC_8e98f 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_fma4 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad4e8/fast && /usr/bin/make -f CMakeFiles/cmTC_ad4e8.dir/build.make CMakeFiles/cmTC_ad4e8.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ad4e8.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -Dcheck_c_compiler_flag__mno_fma4   -mno-fma4 -o CMakeFiles/cmTC_ad4e8.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ad4e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad4e8.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -Dcheck_c_compiler_flag__mno_fma4    CMakeFiles/cmTC_ad4e8.dir/src.c.o  -o cmTC_ad4e8 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_fma4 succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d667/fast && /usr/bin/make -f CMakeFiles/cmTC_7d667.dir/build.make CMakeFiles/cmTC_7d667.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7d667.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -Dcheck_cxx_compiler_flag__mno_fma4   -mno-fma4 -o CMakeFiles/cmTC_7d667.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7d667
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d667.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -Dcheck_cxx_compiler_flag__mno_fma4    CMakeFiles/cmTC_7d667.dir/src.cxx.o  -o cmTC_7d667 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512f succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ecb69/fast && /usr/bin/make -f CMakeFiles/cmTC_ecb69.dir/build.make CMakeFiles/cmTC_ecb69.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ecb69.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -Dcheck_c_compiler_flag__mno_avx512f   -mno-avx512f -o CMakeFiles/cmTC_ecb69.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ecb69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecb69.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -Dcheck_c_compiler_flag__mno_avx512f    CMakeFiles/cmTC_ecb69.dir/src.c.o  -o cmTC_ecb69 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512f succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7779/fast && /usr/bin/make -f CMakeFiles/cmTC_c7779.dir/build.make CMakeFiles/cmTC_c7779.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c7779.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -Dcheck_cxx_compiler_flag__mno_avx512f   -mno-avx512f -o CMakeFiles/cmTC_c7779.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7779.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -Dcheck_cxx_compiler_flag__mno_avx512f    CMakeFiles/cmTC_c7779.dir/src.cxx.o  -o cmTC_c7779 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512vl succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d66bc/fast && /usr/bin/make -f CMakeFiles/cmTC_d66bc.dir/build.make CMakeFiles/cmTC_d66bc.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d66bc.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -Dcheck_c_compiler_flag__mno_avx512vl   -mno-avx512vl -o CMakeFiles/cmTC_d66bc.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d66bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d66bc.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -Dcheck_c_compiler_flag__mno_avx512vl    CMakeFiles/cmTC_d66bc.dir/src.c.o  -o cmTC_d66bc 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vl succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ebf26/fast && /usr/bin/make -f CMakeFiles/cmTC_ebf26.dir/build.make CMakeFiles/cmTC_ebf26.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ebf26.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -Dcheck_cxx_compiler_flag__mno_avx512vl   -mno-avx512vl -o CMakeFiles/cmTC_ebf26.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ebf26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebf26.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -Dcheck_cxx_compiler_flag__mno_avx512vl    CMakeFiles/cmTC_ebf26.dir/src.cxx.o  -o cmTC_ebf26 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512pf succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72955/fast && /usr/bin/make -f CMakeFiles/cmTC_72955.dir/build.make CMakeFiles/cmTC_72955.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_72955.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -Dcheck_c_compiler_flag__mno_avx512pf   -mno-avx512pf -o CMakeFiles/cmTC_72955.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_72955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72955.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -Dcheck_c_compiler_flag__mno_avx512pf    CMakeFiles/cmTC_72955.dir/src.c.o  -o cmTC_72955 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512pf succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_122d5/fast && /usr/bin/make -f CMakeFiles/cmTC_122d5.dir/build.make CMakeFiles/cmTC_122d5.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_122d5.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -Dcheck_cxx_compiler_flag__mno_avx512pf   -mno-avx512pf -o CMakeFiles/cmTC_122d5.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_122d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_122d5.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -Dcheck_cxx_compiler_flag__mno_avx512pf    CMakeFiles/cmTC_122d5.dir/src.cxx.o  -o cmTC_122d5 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512er succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f2ed/fast && /usr/bin/make -f CMakeFiles/cmTC_4f2ed.dir/build.make CMakeFiles/cmTC_4f2ed.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4f2ed.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -Dcheck_c_compiler_flag__mno_avx512er   -mno-avx512er -o CMakeFiles/cmTC_4f2ed.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4f2ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f2ed.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -Dcheck_c_compiler_flag__mno_avx512er    CMakeFiles/cmTC_4f2ed.dir/src.c.o  -o cmTC_4f2ed 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512er succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_39d68/fast && /usr/bin/make -f CMakeFiles/cmTC_39d68.dir/build.make CMakeFiles/cmTC_39d68.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_39d68.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -Dcheck_cxx_compiler_flag__mno_avx512er   -mno-avx512er -o CMakeFiles/cmTC_39d68.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_39d68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39d68.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -Dcheck_cxx_compiler_flag__mno_avx512er    CMakeFiles/cmTC_39d68.dir/src.cxx.o  -o cmTC_39d68 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512cd succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2430f/fast && /usr/bin/make -f CMakeFiles/cmTC_2430f.dir/build.make CMakeFiles/cmTC_2430f.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2430f.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -Dcheck_c_compiler_flag__mno_avx512cd   -mno-avx512cd -o CMakeFiles/cmTC_2430f.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2430f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2430f.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -Dcheck_c_compiler_flag__mno_avx512cd    CMakeFiles/cmTC_2430f.dir/src.c.o  -o cmTC_2430f 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512cd succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_faee7/fast && /usr/bin/make -f CMakeFiles/cmTC_faee7.dir/build.make CMakeFiles/cmTC_faee7.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_faee7.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -Dcheck_cxx_compiler_flag__mno_avx512cd   -mno-avx512cd -o CMakeFiles/cmTC_faee7.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_faee7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faee7.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -Dcheck_cxx_compiler_flag__mno_avx512cd    CMakeFiles/cmTC_faee7.dir/src.cxx.o  -o cmTC_faee7 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512dq succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06706/fast && /usr/bin/make -f CMakeFiles/cmTC_06706.dir/build.make CMakeFiles/cmTC_06706.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_06706.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -Dcheck_c_compiler_flag__mno_avx512dq   -mno-avx512dq -o CMakeFiles/cmTC_06706.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_06706
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06706.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -Dcheck_c_compiler_flag__mno_avx512dq    CMakeFiles/cmTC_06706.dir/src.c.o  -o cmTC_06706 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512dq succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6a1f/fast && /usr/bin/make -f CMakeFiles/cmTC_d6a1f.dir/build.make CMakeFiles/cmTC_d6a1f.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d6a1f.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -Dcheck_cxx_compiler_flag__mno_avx512dq   -mno-avx512dq -o CMakeFiles/cmTC_d6a1f.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d6a1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6a1f.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -Dcheck_cxx_compiler_flag__mno_avx512dq    CMakeFiles/cmTC_d6a1f.dir/src.cxx.o  -o cmTC_d6a1f 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512bw succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3410e/fast && /usr/bin/make -f CMakeFiles/cmTC_3410e.dir/build.make CMakeFiles/cmTC_3410e.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3410e.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -Dcheck_c_compiler_flag__mno_avx512bw   -mno-avx512bw -o CMakeFiles/cmTC_3410e.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3410e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3410e.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -Dcheck_c_compiler_flag__mno_avx512bw    CMakeFiles/cmTC_3410e.dir/src.c.o  -o cmTC_3410e 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512bw succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1e38/fast && /usr/bin/make -f CMakeFiles/cmTC_c1e38.dir/build.make CMakeFiles/cmTC_c1e38.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c1e38.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -Dcheck_cxx_compiler_flag__mno_avx512bw   -mno-avx512bw -o CMakeFiles/cmTC_c1e38.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c1e38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e38.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -Dcheck_cxx_compiler_flag__mno_avx512bw    CMakeFiles/cmTC_c1e38.dir/src.cxx.o  -o cmTC_c1e38 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512ifma succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6a1b/fast && /usr/bin/make -f CMakeFiles/cmTC_b6a1b.dir/build.make CMakeFiles/cmTC_b6a1b.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b6a1b.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -Dcheck_c_compiler_flag__mno_avx512ifma   -mno-avx512ifma -o CMakeFiles/cmTC_b6a1b.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b6a1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a1b.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -Dcheck_c_compiler_flag__mno_avx512ifma    CMakeFiles/cmTC_b6a1b.dir/src.c.o  -o cmTC_b6a1b 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512ifma succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c75cc/fast && /usr/bin/make -f CMakeFiles/cmTC_c75cc.dir/build.make CMakeFiles/cmTC_c75cc.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c75cc.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -Dcheck_cxx_compiler_flag__mno_avx512ifma   -mno-avx512ifma -o CMakeFiles/cmTC_c75cc.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c75cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c75cc.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -Dcheck_cxx_compiler_flag__mno_avx512ifma    CMakeFiles/cmTC_c75cc.dir/src.cxx.o  -o cmTC_c75cc 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx512vbmi succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9309c/fast && /usr/bin/make -f CMakeFiles/cmTC_9309c.dir/build.make CMakeFiles/cmTC_9309c.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9309c.dir/src.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -Dcheck_c_compiler_flag__mno_avx512vbmi   -mno-avx512vbmi -o CMakeFiles/cmTC_9309c.dir/src.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9309c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9309c.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -Dcheck_c_compiler_flag__mno_avx512vbmi    CMakeFiles/cmTC_9309c.dir/src.c.o  -o cmTC_9309c 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vbmi succeeded with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_148f3/fast && /usr/bin/make -f CMakeFiles/cmTC_148f3.dir/build.make CMakeFiles/cmTC_148f3.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_148f3.dir/src.cxx.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -Dcheck_cxx_compiler_flag__mno_avx512vbmi   -mno-avx512vbmi -o CMakeFiles/cmTC_148f3.dir/src.cxx.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_148f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_148f3.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -Dcheck_cxx_compiler_flag__mno_avx512vbmi    CMakeFiles/cmTC_148f3.dir/src.cxx.o  -o cmTC_148f3 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ae9b/fast && /usr/bin/make -f CMakeFiles/cmTC_6ae9b.dir/build.make CMakeFiles/cmTC_6ae9b.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v   -o CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o' '-c' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -auxbase-strip CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSisoD5.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda-11.8/targets/x86_64-linux/include
+ .
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o' '-c' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o /tmp/ccSisoD5.s
+GNU汇编版本 2.34 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o' '-c' '-pthread'
+Linking C executable cmTC_6ae9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ae9b.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v    CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o  -o cmTC_6ae9b  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'cmTC_6ae9b' '-v' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccynvnPy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6ae9b /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'cmTC_6ae9b' '-v' '-pthread'
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_6ae9b/fast && /usr/bin/make -f CMakeFiles/cmTC_6ae9b.dir/build.make CMakeFiles/cmTC_6ae9b.dir/build]
+  ignore line: [make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v   -o CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o' '-c' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -auxbase-strip CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSisoD5.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda-11.8/targets/x86_64-linux/include]
+  ignore line: [ .]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o' '-c' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o /tmp/ccSisoD5.s]
+  ignore line: [GNU汇编版本 2.34 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o' '-c' '-pthread']
+  ignore line: [Linking C executable cmTC_6ae9b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ae9b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v    CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o  -o cmTC_6ae9b  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'cmTC_6ae9b' '-v' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccynvnPy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6ae9b /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccynvnPy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6ae9b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64/../lib] ==> dir [/usr/local/cuda-11.8/lib64/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64] ==> dir [/usr/local/cuda-11.8/lib64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_6ae9b.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/local/cuda-11.8/lib64/../lib] ==> [/usr/local/cuda-11.8/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11.8/lib64] ==> [/usr/local/cuda-11.8/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/usr/local/cuda-11.8/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda-11.8/lib64]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03942/fast && /usr/bin/make -f CMakeFiles/cmTC_03942.dir/build.make CMakeFiles/cmTC_03942.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v   -std=c++11 -o CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-std=c++11' '-o' 'CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -auxbase-strip CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZFWBK9.s
+GNU C++11 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda-11.8/targets/x86_64-linux/include
+ .
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++11 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-std=c++11' '-o' 'CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o /tmp/ccZFWBK9.s
+GNU汇编版本 2.34 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-std=c++11' '-o' 'CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread'
+Linking CXX executable cmTC_03942
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03942.dir/link.txt --verbose=1
+/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v    CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o  -o cmTC_03942  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'cmTC_03942' '-v' '-shared-libgcc' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzz4VB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_03942 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'cmTC_03942' '-v' '-shared-libgcc' '-pthread'
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_03942/fast && /usr/bin/make -f CMakeFiles/cmTC_03942.dir/build.make CMakeFiles/cmTC_03942.dir/build]
+  ignore line: [make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v   -std=c++11 -o CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-std=c++11' '-o' 'CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -auxbase-strip CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZFWBK9.s]
+  ignore line: [GNU C++11 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda-11.8/targets/x86_64-linux/include]
+  ignore line: [ .]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++11 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-std=c++11' '-o' 'CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o /tmp/ccZFWBK9.s]
+  ignore line: [GNU汇编版本 2.34 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-std=c++11' '-o' 'CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread']
+  ignore line: [Linking CXX executable cmTC_03942]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03942.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -v    CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o  -o cmTC_03942  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11.8/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11.8/lib64/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=core2' '-msse2' '-msse3' '-mssse3' '-mno-sse4.1' '-mno-sse4.2' '-mno-sse4a' '-mno-avx' '-mno-fma' '-mno-bmi2' '-mno-avx2' '-mno-xop' '-mno-fma4' '-mno-avx512f' '-mno-avx512vl' '-mno-avx512pf' '-mno-avx512er' '-mno-avx512cd' '-mno-avx512dq' '-mno-avx512bw' '-mno-avx512ifma' '-mno-avx512vbmi' '-fopenmp' '-v' '-o' 'cmTC_03942' '-v' '-shared-libgcc' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzz4VB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_03942 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/local/cuda-11.8/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11.8/lib64 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrzz4VB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_03942] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64/../lib] ==> dir [/usr/local/cuda-11.8/lib64/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/cuda-11.8/lib64] ==> dir [/usr/local/cuda-11.8/lib64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_03942.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/local/cuda-11.8/lib64/../lib] ==> [/usr/local/cuda-11.8/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11.8/lib64] ==> [/usr/local/cuda-11.8/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/usr/local/cuda-11.8/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda-11.8/lib64]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8feb7/fast && /usr/bin/make -f CMakeFiles/cmTC_8feb7.dir/build.make CMakeFiles/cmTC_8feb7.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8feb7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi    -o CMakeFiles/cmTC_8feb7.dir/CheckIncludeFile.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8feb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8feb7.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi     -rdynamic CMakeFiles/cmTC_8feb7.dir/CheckIncludeFile.c.o  -o cmTC_8feb7 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bfe60/fast && /usr/bin/make -f CMakeFiles/cmTC_bfe60.dir/build.make CMakeFiles/cmTC_bfe60.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bfe60.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi    -o CMakeFiles/cmTC_bfe60.dir/CheckIncludeFile.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bfe60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfe60.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi     -rdynamic CMakeFiles/cmTC_bfe60.dir/CheckIncludeFile.c.o  -o cmTC_bfe60 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17091/fast && /usr/bin/make -f CMakeFiles/cmTC_17091.dir/build.make CMakeFiles/cmTC_17091.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_17091.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi    -o CMakeFiles/cmTC_17091.dir/CheckIncludeFile.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_17091
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17091.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi     -rdynamic CMakeFiles/cmTC_17091.dir/CheckIncludeFile.c.o  -o cmTC_17091 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c87e8/fast && /usr/bin/make -f CMakeFiles/cmTC_c87e8.dir/build.make CMakeFiles/cmTC_c87e8.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c87e8.dir/LONG_LONG.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi    -o CMakeFiles/cmTC_c87e8.dir/LONG_LONG.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CheckTypeSize/LONG_LONG.c
+Linking C executable cmTC_c87e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c87e8.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi     -rdynamic CMakeFiles/cmTC_c87e8.dir/LONG_LONG.c.o  -o cmTC_c87e8 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45db9/fast && /usr/bin/make -f CMakeFiles/cmTC_45db9.dir/build.make CMakeFiles/cmTC_45db9.dir/build
+make[1]: 进入目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_45db9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi    -o CMakeFiles/cmTC_45db9.dir/CheckIncludeFile.c.o   -c /home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45db9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45db9.dir/link.txt --verbose=1
+/usr/bin/cc  -march=core2 -msse2 -msse3 -mssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi     -rdynamic CMakeFiles/cmTC_45db9.dir/CheckIncludeFile.c.o  -o cmTC_45db9 
+make[1]: 离开目录“/home/yuancaimaiyi/文档/openMVG/src/build/CMakeFiles/CMakeTmp”
+
+
+
